@@ -12,15 +12,18 @@ Npcap. Packet capture engine for windows host.
 
 Lab Topology.
 
-Host. Lenovo ThinkPad E15 Gen3 (Windows/Linux)
+Host. 
+Lenovo ThinkPad E15 Gen3 (Windows/Linux)
 
 Target VM
+
 Metasploitable2 (Internal Network/Bridged)
 
 Analysis VM
+
 Parrot OS.
 
-Key Findings
+Key Findings:
 
 Protocol identification using wireshark, I successfully identified the following protocols during an active scan:
 ARP. Mapping MAC addresses within the local subnet.
